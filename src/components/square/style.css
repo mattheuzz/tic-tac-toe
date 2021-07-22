@@ -1,0 +1,17 @@
+.mark{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    background: none;
+    border: 1px solid #cCc;
+}
+
+.mark::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}

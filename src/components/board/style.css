@@ -1,0 +1,9 @@
+.board-container{
+    max-width: 580px;
+    margin: 0 auto;
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
